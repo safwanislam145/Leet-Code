@@ -20,7 +20,7 @@ Constraints:
 1 <= s.length <= 3 * 105
 s consist of printable ASCII characters.
 """
-Class Solution:
+class Solution:
     def is_vowel(self, c):
         return c in "aeiouAEIOU"
     
